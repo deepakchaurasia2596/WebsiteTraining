@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main_grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  border: 2px solid black;
+}
+.header_grid {
+  grid-column: span 3;
+  text-align: center;
+}
+.add_cart {
+  grid-column: span 3;
+  text-align: center;
+}
+.product_details ul li {
+  /* text-decoration: none; */
+  list-style: none;
+}
+.box {
+  width: 2px;
+  height: 2px;
+}

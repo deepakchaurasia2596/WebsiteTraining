@@ -1,0 +1,6 @@
+1. Create a 2 page blog post application.
+2. The first page is'index.html' page, as shown in the 'index.png' file, placed inside the 'screenshots' folder.
+2. Use content from 'content.txt' file.
+3. Use images from the 'images' folder.
+4. Clicking on the 'Blog' link, given at the top, must open a 'blog.html' file. This page must be same as shown in the 'blog.png' file.
+5. Clicking on the 'Back to home' link must take you back to the 'index.html' file.

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="table.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form action="form-submit.php" method="post">
+      <div>
+      <fieldset class="table">
+        <legend>Personal Information</legend>
+        <label for=first_name>Name:</label>  
+        <input type="text" name="First Name" autofocus required id="first_name"/> <br />
+        <label for=last_name>Last Name</label>
+        <input type="text" name="Last Name" id="last_name"/><br />
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="enter a valid email" required id="email"><br>
+        <label for="checkbox">CheckBox</label>
+        <input type="checkbox" name="check1" value="ch1" id="checkbox"/>Check1
+        <input type="checkbox" name="check1" value="ch2" id="checkbox"/>Check2
+        <br />
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"><br>
+        <label for="radio">Radio:</label>
+        <input type="radio" name="radio" value="r1" id="radio"/>radio1
+        <input type="radio" name="radio" value="r2" id="radio"/>radio2
+        <br />
+        <label for="message">Message</label>
+        <textarea name="message" id="message"></textarea><br />
+        <label for="dropdown">Dropdown</label>
+        <select name="dropdown" id="dropdown">
+          <option value="o1">option1</option>
+          <option value="o2">option2</option>
+          <option value="o3">option3</option>
+          <option value="o4">option4</option>
+        </select>
+        <br />
+        <label for="date">Date</label>
+        <input type="date" name="date" value="date" id="date"><br>
+        <label for="time">Time</label>
+        <input type="time" name="time" value="time" id="time">
+        
+        <label for="range">Range</label>
+        <input type="range" name="range" min="1" max="10" id="range">
+        <input type="submit" value="Send" /><br>
+        
+      </fieldset>
+    </form>
+    
+  </div>
+  </body>
+</html>

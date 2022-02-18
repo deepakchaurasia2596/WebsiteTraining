@@ -1,0 +1,66 @@
+body {
+  margin: 20px;
+}
+header ul {
+  color: blue;
+  list-style: none;
+
+  float: right;
+}
+ul li a {
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+header li {
+  display: inline;
+  padding-right: 20px;
+  /* text-decoration: none; */
+}
+header {
+  background-color: brown;
+  overflow: hidden;
+}
+header h1 {
+  display: inline;
+  color: aqua;
+}
+h1,
+h3 {
+  color: aqua;
+}
+.nearlike {
+  position: relative;
+}
+
+.like {
+  position: absolute;
+  right: 40px;
+  bottom: -540px;
+  margin-bottom: 10px;
+}
+.post_img {
+  height: 40px;
+  width: 40px;
+}
+.poster {
+  border-top: 4px solid red;
+  border-bottom: 4px solid red;
+}
+.main_div {
+  display: flex;
+  justify-content: space-between;
+}
+.first_flex_box {
+  width: 50%;
+}
+.second_box_flex {
+  width: 30%;
+}
+.post {
+  text-align: center;
+}
+.header_post {
+  display: flex;
+}
